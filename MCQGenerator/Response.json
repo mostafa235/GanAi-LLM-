@@ -1,0 +1,43 @@
+{
+    "1": {
+      "mcq": "What is biology?",
+      "options": {
+        "a": "The study of non-living things",
+        "b": "The scientific study of life",
+        "c": "The study of the universe",
+        "d": "The study of mathematics"
+      },
+      "correct": "b"
+    },
+    "2": {
+      "mcq": "What is one of the main themes of biology?",
+      "options": {
+        "a": "Energy processing only",
+        "b": "Evolution and unity of life",
+        "c": "Regulation of internal environment only",
+        "d": "All of the above"
+      },
+      "correct": "b"
+    },
+    "3": {
+      "mcq": "At what level do biologists study life?",
+      "options": {
+        "a": "Only at the molecular level",
+        "b": "From the molecular biology of a cell to the anatomy and physiology of plants and animals, and evolution of populations",
+        "c": "Only at the population level",
+        "d": "Only at the ecosystem level"
+      },
+      "correct": "b"
+    },
+    "4": {
+      "mcq": "How long ago did life emerge on Earth?",
+      "options": {
+        "a": "Less than 100 million years ago",
+        "b": "More than 3.7 billion years ago",
+        "c": "Exactly 500 million years ago",
+        "d": "About 2000 years ago"
+      },
+      "correct": "b"
+    }
+  }
+  
