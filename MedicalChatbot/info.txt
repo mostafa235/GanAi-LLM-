@@ -1,0 +1,3 @@
+streamlit run StreamlitAPP.py --server.enableCORS=false --server.enableXsrfProtection=false
+streamlit run StreamlitAPP.py --server.runOnSave false
+http://localhost:5000

@@ -1,0 +1,14 @@
+langchain_huggingface
+streamlit
+python-dotenv
+transformers
+langchain
+langchain-chroma
+langchain-community
+huggingface_hub 
+flask
+flask-cors
+langdetect
+deep_translator
+pypdf
+-e .

@@ -1,0 +1,12 @@
+deep_translator
+langdetect
+langchain
+flask
+flask-cors
+streamlit
+python-dotenv
+langchain_huggingface
+langchain-chroma
+huggingface_hub
+transformers
+langchain-community
