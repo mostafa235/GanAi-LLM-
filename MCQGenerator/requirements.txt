@@ -1,0 +1,11 @@
+openai
+langchain
+langchain-community
+huggingface_hub
+langchain_huggingface
+streamlit
+python-dotenv
+PyPDF2
+transformers
+
+-e .

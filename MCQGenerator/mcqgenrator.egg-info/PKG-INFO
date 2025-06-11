@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: mcqgenrator
+Version: 0.0.2
+Author: mostafa mohamed elsaht
+Author-email: mostafamohamedelsaht@gmai.com
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: huggingface_hub
+Requires-Dist: PyPDF2
+Requires-Dist: langchain_huggingface
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
