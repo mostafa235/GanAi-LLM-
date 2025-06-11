@@ -1,0 +1,15 @@
+[2025-05-29 15:33:22,318] 26 root - INFO - \u062c\u0627\u0631\u064a \u062a\u0647\u064a\u0626\u0629 Medical Chatbot
+[2025-05-29 15:34:09,477] 219 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-05-29 15:34:17,499] 81 root - INFO - Loading existing Chroma database
+[2025-05-29 15:34:17,828] 22 chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-05-29 15:34:18,614] 42 root - INFO - \u062a\u0645 \u062a\u0647\u064a\u0626\u0629 \u0627\u0644\u0634\u0627\u062a \u0628\u0648\u062a \u0628\u0646\u062c\u0627\u062d
+[2025-05-29 15:34:18,770] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-05-29 15:34:18,777] 97 werkzeug - INFO -  * Debugger PIN: 877-680-168
+[2025-05-29 15:34:18,972] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:34:18] "GET / HTTP/1.1" 200 -
+[2025-05-29 15:37:27,634] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:37:27] "POST /ask HTTP/1.1" 200 -
+[2025-05-29 15:42:21,096] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\requests\\sessions.py', reloading
+[2025-05-29 15:42:21,107] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\huggingface_hub\\utils\\_http.py', reloading
+[2025-05-29 15:42:21,119] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\requests\\adapters.py', reloading
+[2025-05-29 15:42:21,134] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\urllib3\\util\\retry.py', reloading
+[2025-05-29 15:42:21,153] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\urllib3\\util\\util.py', reloading
+[2025-05-29 15:42:21,236] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:42:21] "POST /ask HTTP/1.1" 200 -

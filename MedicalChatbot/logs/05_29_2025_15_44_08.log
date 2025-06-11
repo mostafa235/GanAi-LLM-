@@ -1,0 +1,38 @@
+[2025-05-29 15:44:08,553] 26 root - INFO - \u062c\u0627\u0631\u064a \u062a\u0647\u064a\u0626\u0629 Medical Chatbot
+[2025-05-29 15:44:40,799] 219 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-05-29 15:44:43,891] 81 root - INFO - Loading existing Chroma database
+[2025-05-29 15:44:43,913] 22 chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-05-29 15:44:44,346] 42 root - INFO - \u062a\u0645 \u062a\u0647\u064a\u0626\u0629 \u0627\u0644\u0634\u0627\u062a \u0628\u0648\u062a \u0628\u0646\u062c\u0627\u062d
+[2025-05-29 15:44:44,359] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-05-29 15:44:44,361] 97 werkzeug - INFO -  * Debugger PIN: 877-680-168
+[2025-05-29 15:44:52,040] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:44:52] "GET / HTTP/1.1" 200 -
+[2025-05-29 15:45:07,924] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:45:07] "POST /ask HTTP/1.1" 200 -
+[2025-05-29 15:46:34,153] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:46:34] "POST /ask HTTP/1.1" 200 -
+[2025-05-29 15:48:43,705] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:48:43] "POST /ask HTTP/1.1" 200 -
+[2025-05-29 15:49:36,874] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 15:49:36] "POST /ask HTTP/1.1" 200 -
+[2025-05-29 15:51:13,180] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\__init__.py', reloading
+[2025-05-29 15:51:13,236] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-05-29 15:51:13,406] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+[2025-05-29 15:51:13,433] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+[2025-05-29 15:51:13,500] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\templating.py', reloading
+[2025-05-29 15:51:13,515] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+[2025-05-29 15:51:13,525] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\jinja2\\environment.py', reloading
+[2025-05-29 15:51:13,585] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\globals.py', reloading
+[2025-05-29 15:51:13,600] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+[2025-05-29 15:51:13,611] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\wrappers.py', reloading
+[2025-05-29 15:51:13,616] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+[2025-05-29 15:51:13,623] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+[2025-05-29 15:51:13,643] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+[2025-05-29 15:51:13,699] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\cli.py', reloading
+[2025-05-29 15:51:13,822] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\click\\__init__.py', reloading
+[2025-05-29 15:51:13,842] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\click\\core.py', reloading
+[2025-05-29 15:51:13,901] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\click\\types.py', reloading
+[2025-05-29 15:51:13,925] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\click\\decorators.py', reloading
+[2025-05-29 15:51:13,955] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\config.py', reloading
+[2025-05-29 15:51:13,969] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\flask\\typing.py', reloading
+[2025-05-29 15:51:13,985] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+[2025-05-29 15:51:14,005] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+[2025-05-29 15:51:14,054] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+[2025-05-29 15:51:14,065] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+[2025-05-29 15:51:14,083] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+[2025-05-29 15:51:14,112] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\werkzeug\\_internal.py', reloading

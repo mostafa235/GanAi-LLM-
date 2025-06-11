@@ -1,0 +1,85 @@
+[2025-05-29 13:30:26,253] 24 root - INFO - \u062c\u0627\u0631\u064a \u062a\u0647\u064a\u0626\u0629 Medical Chatbot
+[2025-05-29 13:31:00,497] 219 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-05-29 13:31:03,700] 76 root - INFO - Loading existing Chroma database
+[2025-05-29 13:31:03,721] 22 chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-05-29 13:31:03,876] 152 langchain_huggingface.llms.huggingface_endpoint - WARNING - WARNING! max_length is not default parameter.
+                    max_length was transferred to model_kwargs.
+                    Please make sure that max_length is what you intended.
+[2025-05-29 13:31:03,965] 40 root - INFO - \u062a\u0645 \u062a\u0647\u064a\u0626\u0629 \u0627\u0644\u0634\u0627\u062a \u0628\u0648\u062a \u0628\u0646\u062c\u0627\u062d
+[2025-05-29 13:31:03,978] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-05-29 13:31:03,983] 97 werkzeug - INFO -  * Debugger PIN: 877-680-168
+[2025-05-29 13:31:04,257] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 13:31:04] "GET / HTTP/1.1" 200 -
+[2025-05-29 13:31:28,968] 76 root - ERROR - \u062e\u0637\u0623 \u0641\u064a \u0645\u0639\u0627\u0644\u062c\u0629 \u0627\u0644\u0633\u0624\u0627\u0644: InferenceClient.text_generation() got an unexpected keyword argument 'max_length'
+[2025-05-29 13:31:29,089] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\langchain\\chains\\base.py', reloading
+[2025-05-29 13:31:29,118] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\langchain\\chains\\retrieval_qa\\base.py', reloading
+[2025-05-29 13:31:29,142] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\langchain\\chains\\combine_documents\\base.py', reloading
+[2025-05-29 13:31:29,154] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\langchain\\chains\\combine_documents\\stuff.py', reloading
+[2025-05-29 13:31:29,170] 97 werkzeug - INFO -  * Detected change in 'D:\\Ai_generative\\lec7\\env\\Lib\\site-packages\\langchain\\chains\\llm.py', reloading
+[2025-05-29 13:31:29,184] 77 root - ERROR - Traceback (most recent call last):
+  File "D:\Ai_generative\lec7\src\medical_chatbot\Medical_Chatbot.py", line 56, in ask_question
+    response = self.qa_chain.invoke({"query": corrected_question})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\retrieval_qa\base.py", line 154, in _call
+    answer = self.combine_documents_chain.run(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 608, in run
+    return self(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\combine_documents\base.py", line 138, in _call
+    output, extra_return_dict = self.combine_docs(
+                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\combine_documents\stuff.py", line 259, in combine_docs
+    return self.llm_chain.predict(callbacks=callbacks, **inputs), {}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\llm.py", line 319, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\llm.py", line 127, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain\chains\llm.py", line 139, in generate
+    return self.llm.generate_prompt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_core\language_models\llms.py", line 766, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_core\language_models\llms.py", line 973, in generate
+    return self._generate_helper(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_core\language_models\llms.py", line 792, in _generate_helper
+    self._generate(
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_core\language_models\llms.py", line 1547, in _generate
+    self._call(prompt, stop=stop, run_manager=run_manager, **kwargs)
+  File "D:\Ai_generative\lec7\env\Lib\site-packages\langchain_huggingface\llms\huggingface_endpoint.py", line 312, in _call
+    response_text = self.client.text_generation(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InferenceClient.text_generation() got an unexpected keyword argument 'max_length'
+
+[2025-05-29 13:31:29,184] 97 werkzeug - INFO - 127.0.0.1 - - [29/May/2025 13:31:29] "POST /ask HTTP/1.1" 200 -

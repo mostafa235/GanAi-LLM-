@@ -1,0 +1,2 @@
+[2025-05-29 13:04:22,445] 21 root - INFO - \u062c\u0627\u0631\u064a \u062a\u0647\u064a\u0626\u0629 Medical Chatbot
+[2025-05-29 13:05:33,835] 219 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2

@@ -1,0 +1,9 @@
+[2025-05-28 21:09:33,850] 21 root - INFO - \u062c\u0627\u0631\u064a \u062a\u0647\u064a\u0626\u0629 Medical Chatbot
+[2025-05-28 21:10:06,924] 211 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[2025-05-28 21:10:06,924] 219 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-05-28 21:10:26,268] 22 chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-05-28 21:10:29,724] 37 root - INFO - \u062a\u0645 \u062a\u0647\u064a\u0626\u0629 \u0627\u0644\u0634\u0627\u062a \u0628\u0648\u062a \u0628\u0646\u062c\u0627\u062d
+[2025-05-28 21:10:50,684] 21 root - INFO - \u062c\u0627\u0631\u064a \u062a\u0647\u064a\u0626\u0629 Medical Chatbot
+[2025-05-28 21:11:16,357] 211 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[2025-05-28 21:11:16,357] 219 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-05-28 21:11:20,170] 37 root - INFO - \u062a\u0645 \u062a\u0647\u064a\u0626\u0629 \u0627\u0644\u0634\u0627\u062a \u0628\u0648\u062a \u0628\u0646\u062c\u0627\u062d

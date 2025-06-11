@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: medical_chatbot
+Version: 0.0.1
+Author: mostafa mohamed elsaht
+Author-email: mostafamohamedelsaht@gmai.com
+Requires-Dist: deep_translator
+Requires-Dist: langdetect
+Requires-Dist: langchain
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: langchain_huggingface
+Requires-Dist: langchain-chroma
+Requires-Dist: huggingface_hub
+Requires-Dist: transformers
+Requires-Dist: langchain-community
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

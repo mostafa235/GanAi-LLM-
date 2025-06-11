@@ -1,0 +1,4 @@
+[2025-05-29 12:58:37,635] 21 root - INFO - \u062c\u0627\u0631\u064a \u062a\u0647\u064a\u0626\u0629 Medical Chatbot
+[2025-05-29 13:00:09,209] 219 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-05-29 13:00:18,292] 69 root - INFO - Creating new Chroma database
+[2025-05-29 13:00:18,763] 22 chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
