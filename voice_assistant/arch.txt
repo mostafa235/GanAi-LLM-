@@ -1,0 +1,20 @@
+Microphone
+   ↓
+Speech-to-Text
+   ↓
+LLM 
+   ↓
+Text-to-Speech
+   ↓
+Speaker
+
+------------------------------------
+tech stack
+backend :python +flask
+front-end :html+css+js
+Ai model :HuggingFAce
+--------------------
+Project Structure
+voice_assistant/
+│── main.py
+│── requirements.txt

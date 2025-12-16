@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Voice Assistant</h2>
+
+    <!-- خانة كتابة النص -->
+    <input type="text" id="textInput" placeholder="اكتب هنا...">
+    <button id="sendTextBtn">أرسل نص</button>
+    <button id="sendAudioBtn">🎤 أرسل تسجيل</button>
+
+
+    <br><br>
+
+
+    <p id="reply"></p>
+
+<script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
